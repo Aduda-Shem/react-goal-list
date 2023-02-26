@@ -5,9 +5,9 @@ import './App.css';
 
 const App = () => {
   const [courseGoals, setCourseGoals] = useState([
-    { id: 'cg1', text: 'Finish the Course', completed: false },
-    { id: 'cg2', text: 'Learn all about the Course Main Topic', completed: false },
-    { id: 'cg3', text: 'Help other students in the Course Q&A', completed: false }
+    { id: 'cg1', text: 'Finish React & Redux Course', completed: false },
+    { id: 'cg2', text: 'Learn all about backend technologies in Node.JS', completed: false },
+    { id: 'cg3', text: 'Help other students to learn Full Stack Development using Q&A', completed: false }
   ]);
 
   const addNewGoalHandler = newGoal => {
