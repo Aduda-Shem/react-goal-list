@@ -1,0 +1,35 @@
+.new-goal input[type="text"] {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #ccc;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  width: 50%;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.new-goal button[type="submit"] {
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.new-goal button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.new-goal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* existing styles */
+}
+
+
+

@@ -1,0 +1,60 @@
+.goal-list {
+  list-style: none;
+  margin: 2rem;
+  padding: 0;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+}
+
+.goal-list li {
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.goal-list li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.goal-list li:before {
+  content: "⚡";
+  margin-right: 0.5rem;
+  color: #ffc107;
+}
+
+.goal-list li.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.goal-list li.completed:before {
+  content: "✔️";
+  color: #28a745;
+}
+
+.goal-list h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0;
+  padding: 1rem;
+  color: #444;
+  text-shadow: 1px 1px #fff;
+}
+
+.goal-list p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #666;
+  margin: 0;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
