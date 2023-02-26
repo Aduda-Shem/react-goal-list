@@ -17,6 +17,7 @@ Navigate to the project directory:
 Install the dependencies:
 
 ``npm install``
+
 Start the application:
 
 ``npm start``
