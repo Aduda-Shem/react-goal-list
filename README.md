@@ -1,13 +1,6 @@
 # react-goal-list
 simple web application built with React and styled with CSS. It allows users to create and track their goals.
 
-Features:
-
-Add goals
-
-View goal state
-
-
 Installation
 
 ``git clone https://github.com/Aduda-Shem/react-goal-list.git``
