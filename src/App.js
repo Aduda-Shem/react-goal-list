@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <div className="course-goals">
-      <h2>Course Goals</h2>
+      <h2>Study Goals</h2>
       <NewGoal onAddGoal={addNewGoalHandler} />
       <p>Total goals: {courseGoals.length}, completed goals: {completedGoalsCount}</p>
       <GoalList goals={courseGoals} onDeleteGoal={deleteGoalHandler} onToggleCompleted={toggleCompletedHandler} />
